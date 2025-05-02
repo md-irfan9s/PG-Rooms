@@ -2,14 +2,14 @@ const news = [
 
     {
         id : 1,
-        img : "https://img.freepik.com/free-photo/student-online-cute-guy-checked-shirt-with-glasses-studying-computer-reading-book_140725-164343.jpg?t=st=1731332671~exp=1731336271~hmac=fceca89543c8cf939b83628d1407483ed9e57e3921cb121a630fd9490a5de253&w=900",
+        img : "https://img.freepik.com/free-photo/psychoanalyst-giving-couple-relationship-guidance-unhappy-husband_482257-25274.jpg?t=st=1744611217~exp=1744614817~hmac=50c465c2cdd38a6786f48d47b93d16c92b0186c875543a1355cd971aead6e7aa&w=1800",
         title : "July, 22 2024 / In News",
         desc: "A PG (Paying Guest) accomodation for students can be crucial part of the student's journey. it involves finding a place to leave while persuing academics studies.",
     
     },
     {
         id : 2,
-        img : "https://img.freepik.com/free-photo/people-office_144627-38038.jpg?t=st=1731332721~exp=1731336321~hmac=ecadac09c771359edbdc478c3a9a58a167f1c2bb10c5ffff9b2ea37b288da4c5&w=900",
+        img : "https://img.freepik.com/free-photo/people-having-casual-lunch-while-enjoying-some-salsa-dancing_23-2151356604.jpg?t=st=1744611419~exp=1744615019~hmac=37a3a439abdd5d0bb6a2c96d925f423365814dfde852bf8f7966e91f5261947a&w=1380",
         title : "September, 12 2024 / In Blogs",
         desc: "Group study in a PG helps students solve challenging topics together, share different approaches, and stay motivated. It builds a supportive learning environment, enhancing academic understanding. This collaboration fosters both personal and academic growth.",
     },

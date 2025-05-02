@@ -37,15 +37,15 @@ function AboutInfo() {
                     <div className="flex gap-3 text-base text-slate-700 font-medium">
                         <img />
                         <div>
-                            <p className="text-orange-500 font-medium">900</p>
+                            <p className="text-orange-500 font-medium">900+</p>
                             <p>Happy People</p>
                         </div>
                         <div>
-                            <p className="text-orange-500 font-medium">30K</p>
+                            <p className="text-orange-500 font-medium">30K+</p>
                             <p>Coustomers</p>
                         </div>
                         <div>
-                            <p className="text-orange-500 font-medium">60K</p>
+                            <p className="text-orange-500 font-medium">60K+</p>
                             <p>Available Rooms</p>
                         </div>
                     </div>

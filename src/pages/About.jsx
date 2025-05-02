@@ -1,6 +1,7 @@
 import React from "react";
 import HomeContent from "../components/HomeContent";
-
+import AboutInfo from "../components/AboutInfo";
+import Testimonial from "../components/Testimonial";
 
 function About() {
 
@@ -9,6 +10,15 @@ function About() {
             
             <HomeContent /> 
             
+
+            <div>
+                <AboutInfo />  
+            </div>
+
+
+            <div>
+                <Testimonial />
+            </div>
         </div>
     )
 }

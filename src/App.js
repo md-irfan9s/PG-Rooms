@@ -12,7 +12,7 @@ import Dashboard from "./pages/Dashboard";
 import { AppContext } from "./context/AppContext";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
-import LoadingBar from 'react-top-loading-bar'
+import LoadingBar from 'react-top-loading-bar';
 
 function App() {
 

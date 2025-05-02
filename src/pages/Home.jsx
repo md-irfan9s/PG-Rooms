@@ -16,6 +16,12 @@ import "slick-carousel/slick/slick-theme.css";
 import animatedGif from "../assets/sofa.gif"
 import news from "../AllData/news.js"
 import NewsData from "../components/NewsData.jsx";
+import CategoryRoom from "../AllData/CategoryRoom.js";
+import CategoryRoomData from "../components/CategoryRoomData.jsx";
+import Testimonial from "../components/Testimonial.jsx";
+import LeaderSection from "../components/LeaderSection.jsx";
+import Details from "../components/Details.jsx";
+import Contactus from "../components/Contactus.jsx";
 
 function Home() {
 
@@ -79,8 +85,8 @@ function Home() {
             md:grid-cols-3 sm:grid-cols-2
             ">
             {
-                serviceCart.map( (cart, id) => (
-                    <ServiceItem cart={cart} key={id}/>
+                serviceCart.map( (cart) => (
+                    <ServiceItem cart={cart} key={serviceCart.id}/>
                 ))
             }
             </div>
@@ -139,7 +145,8 @@ function Home() {
                 <img src={animatedGif} width={50} 
                 className="absolute -right-5"/>
 
-                <div>
+                <div className="grid lg:grid-cols-4 place-items-center mt-9 gap-3
+            md:grid-cols-3 sm:grid-cols-2 mx-auto pb-7">
                     {
                         news.map( (news) => (
                             <NewsData  news = {news}/>
@@ -149,13 +156,78 @@ function Home() {
             </section>
 
             
+                <section className="w-full">
+
+                <div className="flex justify-center mx-auto">
+                    <div className="h-[1px] w-[6rem] bg-orange-400"></div>
+                </div>
+
+                <h1 className="text-center text-[2.1rem] font-mono text-slate-700
+                    font-semibold capitalize">
+                        best category rooms
+                </h1>
+
+
+                <div className="grid lg:grid-cols-3 place-items-center mt-9 gap-3
+            md:grid-cols-3 sm:grid-cols-2  pb-7">
+                    {
+                        CategoryRoom.map( (CategoryRoom) => (
+                            <CategoryRoomData CategoryRoom ={CategoryRoom}/>
+                        ))
+                    }
+                </div>
+                    
+
+                </section>
+
+                    {/* testimonial section  */}
+                <section className="w-full mt-5">
+
+                    <div className="flex justify-center mx-auto">
+                        <div className="h-[1px] w-[6rem] bg-orange-400"></div>
+                    </div>
+
+                    <h1 className="text-center text-[2.1rem] font-mono text-slate-700
+                        font-semibold capitalize">
+                            Some of our awesome testimonial
+                    </h1>
+
+
+                    <div className="">
+
+                    <Testimonial/>
+
+                    </div>
+
+                </section>
+
+
+                    {/* Leader sections  */}
+
+                    <LeaderSection />
+
+                
+                    {/* details section  */}
+                <section>
+
+                    <Details/ >
+                </section>
+                    {/* details end */}
+
+            
+            <section>
+
+                    <Contactus />
+
+            </section>
+
+                    
+
+
 
             </div>
             
-
-            
-
-
+                
             
         </div>
     )
